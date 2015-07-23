@@ -1,0 +1,10 @@
+<body>
+    <h1><%= title %>: El Juego de las Preguntas</h1>
+    <p><b>Pregunta: </b><%= pregunta %></p>
+    <p>
+    	<form method="get" action="/quizes/answer">
+    		<input type="text" name="respuesta" placeholder="Escriba aquí su respuesta" />
+    		<input type="submit" value="Enviar" />
+    	</form>
+    </p>
+</body>
